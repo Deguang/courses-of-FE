@@ -1,0 +1,27 @@
+.class1 {
+    color: #ccc;
+}
+
+.class2 {
+    @extend .class1;
+    font-size: 120%;
+}
+
+@mixin position-0 {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+div {
+　@include position-0;
+  color: #a6bfac;
+  a {
+    color: blue;
+    &:hover{
+        color: red;
+    }
+  }
+}
