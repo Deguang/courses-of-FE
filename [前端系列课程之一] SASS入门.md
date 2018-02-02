@@ -462,7 +462,7 @@ $i: 6;
 [slide]
 # Sass 在当前开发环境中的部署
 
-<a href="http://wiki.qijiayoudao.net/pages/viewpage.action?pageId=9176980" target="_blank">Wiki：sass环境搭建</a>
+<a href="javascript:void(0);" target="_blank">Wiki：sass环境搭建</a>
 
 
 [slide]
